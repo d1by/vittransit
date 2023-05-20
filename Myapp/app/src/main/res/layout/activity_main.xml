@@ -8,53 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:contentDescription="would you allow to access location"
-        android:hint="e.g yes or no"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/titleTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="100dp"
-            android:text="THIS APP"
-            android:textColor="#FFFFFF"
-            android:textSize="50sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/taglineTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-            android:text="The One-Stop Solution"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/tagline2TextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="0dp"
-            android:text="to all your Transit Needs"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp" />
-
-        <ImageView
-            android:id="@+id/busImageView"
-            android:layout_width="162dp"
-            android:layout_height="149dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp" />
-
-    </LinearLayout>
+        android:hint="smthg"/>
 
 </RelativeLayout>
 

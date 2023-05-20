@@ -131,12 +131,10 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
             priority = LocationRequest.PRIORITY_HIGH_ACCURACY
         }
 
-        fusedLocationProviderClient.requestLocationUpdates(
-            locationRequest,
-            locationCallback,
-            null
-        )
-    }
+    fusedLocationProviderClient.requestLocationUpdates(
+        locationRequest,
+        locationCallback,
+        null) }
 
     private fun stopLocationUpdates() {
         fusedLocationProviderClient.removeLocationUpdates(locationCallback)
@@ -152,7 +150,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
             if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 startLocationUpdates()
             } else {
-                // Handle the case when the user denies the location permission
+
             }
         }
     }
