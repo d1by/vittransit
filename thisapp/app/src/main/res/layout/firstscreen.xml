@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A9EF0">
+
+    <!-- FrameLayout for the image with borders -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+        <!-- Image with borders -->
+        <ImageView
+            android:id="@+id/vitMap"
+            android:layout_width="356dp"
+            android:layout_height="432dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/border"
+            android:src="@drawable/one" />
+
+    </FrameLayout>
+
+    <!-- Bottom half layout -->
+    <RelativeLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <!-- Title -->
+        <LinearLayout
+            android:id="@+id/titleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <!-- Shuttle -->
+            <TextView
+                android:id="@+id/shuttleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shuttle"
+                android:textSize="40sp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <!-- Sync -->
+            <TextView
+                android:id="@+id/syncTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Sync"
+                android:textSize="40sp"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleLayout"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 1"
+                android:background="@drawable/roundedbutton"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 2"
+                android:background="@drawable/roundedbutton"
+
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 3"
+                android:background="@drawable/roundedbutton"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 4"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/roundedbutton" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
