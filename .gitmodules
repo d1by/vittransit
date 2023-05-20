@@ -1,0 +1,3 @@
+[submodule "simple-map-viewer-template"]
+	path = simple-map-viewer-template
+	url = https://github.com/Esri/simple-map-viewer-template
