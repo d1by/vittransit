@@ -4,6 +4,7 @@ import folium
 from flask import Flask, render_template
 
 app = Flask(__name__)
+app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 cred = credentials.Certificate("bus--tracker-firebase-adminsdk-bd7k8-ef933504c7.json")
 firebase_admin.initialize_app(cred, {
@@ -28,7 +29,7 @@ def display_map():
         
         folium.Marker(
             location=[lat, lon],
-            popup="<i>Next stop: Lorem ipsum</i>",
+            popup="<i>ETA: Lorem Ipsum</i>",
             tooltip=f"Bus {index}"
         ).add_to(m)
     
