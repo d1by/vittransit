@@ -7,6 +7,14 @@ codechef internal hackathon, may 2023
 - [x] Display map updates dynamically using Flask 
 - [ ] Show time until arrival of bus at a location specified via menu 
 
+### To run for yourself:
+1. clone repo
+2. generate firebase database private key (`https://console.firebase.google.com/u/project/<PROJECT_NAME>/settings/serviceaccounts/adminsdk`)
+3. place private key .json file in the same directory as repo
+4. create virtual env (optional, recommended): `py -3 -m venv env` and run it: `env\scripts\activate`
+6. run flask app with `python tracker.py`
+7. navigate to server (default: `http://127.0.0.1:5000`) in your web browser
+ 
 ## Images
 ###### Flask, displaying map generated via Folium 
 ![image](https://github.com/d1by/vittransit/assets/108338649/d56d700d-5ed1-4131-bae1-96c00fa3848d)
