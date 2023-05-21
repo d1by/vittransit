@@ -1,0 +1,87 @@
+[
+  {
+    "BusNum": 1,
+    "Latitude": 12.974532,
+    "Longitude": 79.164118
+  },
+  {
+    "BusNum": 2,
+    "Latitude": 12.973603,
+    "Longitude": 79.164168
+  },
+  {
+    "BusNum": 3,
+    "Latitude": 12.973053,
+    "Longitude": 79.163767
+  },
+  {
+    "BusNum": 4,
+    "Latitude": 12.972849,
+    "Longitude": 79.162815
+  },
+  {
+    "BusNum": 5,
+    "Latitude": 12.972682,
+    "Longitude": 79.16163
+  },
+  {
+    "BusNum": 6,
+    "Latitude": 12.97376,
+    "Longitude": 79.159644
+  },
+  {
+    "BusNum": 7,
+    "Latitude": 12.973646,
+    "Longitude": 79.15818
+  },
+  {
+    "BusNum": 8,
+    "Latitude": 12.972888,
+    "Longitude": 79.156673
+  },
+  {
+    "BusNum": 9,
+    "Latitude": 12.972051,
+    "Longitude": 79.157641
+  },
+  {
+    "BusNum": 10,
+    "Latitude": 12.969779,
+    "Longitude": 79.158385
+  },
+  {
+    "BusNum": 11,
+    "Latitude": 12.968826,
+    "Longitude": 79.157171
+  },
+  {
+    "BusNum": 12,
+    "Latitude": 12.968561,
+    "Longitude": 79.156234
+  },
+  {
+    "BusNum": 13,
+    "Latitude": 12.969412,
+    "Longitude": 79.155312
+  },
+  {
+    "BusNum": 14,
+    "Latitude": 12.969716,
+    "Longitude": 79.155663
+  },
+  {
+    "BusNum": 15,
+    "Latitude": 12.969469,
+    "Longitude": 79.156537
+  },
+  {
+    "BusNum": 16,
+    "Latitude": 12.972824,
+    "Longitude": 79.1571
+  },
+  {
+    "BusNum": 17,
+    "Latitude": 12.972622,
+    "Longitude": 79.158921
+  }
+]
