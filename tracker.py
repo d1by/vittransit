@@ -19,9 +19,9 @@ def display_map():
     
     for coords in data:
         for key in coords:
-            if key == 'latitude':
+            if key == 'Latitude':
                 lat = coords[key]
-            elif key == 'longitude':
+            elif key == 'Longitude':
                 lon = coords[key]
             else:
                 index = coords[key]
