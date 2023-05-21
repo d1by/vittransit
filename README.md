@@ -20,7 +20,7 @@ codechef internal hackathon, may 2023
 ##### [Jayantika](https://github.com/Jayantika1610) 
 ###### Android app (Kotlin) to push location data to Firebase Realtime Database
 ##### [Aaryan](https://github.com/Aaryan-Poria)
-###### UI for Android app (XML)
+###### UI for Android app (XML), presentations
 ##### [Aryaman](https://github.com/Unusedkeys)
 ###### Presentations
 ##### [Diby](https://github.com/d1by)
