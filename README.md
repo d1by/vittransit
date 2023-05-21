@@ -5,3 +5,4 @@ codechef internal hackathon, may 2023
 - [ ] Push location data to Firebase Realtime Database using android app
 - [x] Retreive information from Firebase Realtime Database
 - [x] Display map updates dynamically using Flask 
+- [ ] Show time until arrival of bus at a location specified via menu 
